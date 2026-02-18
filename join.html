@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join NMSGA</title>
-    <meta name="description" content="Request your invite to NMSGA — the national network for medical school student body presidents.">
+    <meta name="description" content="Join NMSGA — the professional association for medical school student body presidents.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
     <style>
         * {
             box-sizing: border-box;
@@ -21,136 +21,35 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #0F2847 0%, #1A3C6E 50%, #0F2847 100%);
+            background: #1A3C6E;
             padding: 24px;
-            position: relative;
-            overflow: hidden;
         }
 
-        /* Animated background elements */
-        .bg-grid {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image:
-                linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-            background-size: 60px 60px;
-            pointer-events: none;
-        }
-
-        .bg-glow {
-            position: fixed;
-            width: 600px;
-            height: 600px;
-            border-radius: 50%;
-            background: radial-gradient(circle, rgba(212, 165, 32, 0.15) 0%, transparent 70%);
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            pointer-events: none;
-            animation: pulse 8s ease-in-out infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(1); }
-            50% { opacity: 0.8; transform: translate(-50%, -50%) scale(1.1); }
-        }
-
-        .bg-orb {
-            position: fixed;
-            border-radius: 50%;
-            background: rgba(212, 165, 32, 0.08);
-            pointer-events: none;
-            animation: float 20s ease-in-out infinite;
-        }
-
-        .bg-orb:nth-child(1) {
-            width: 300px;
-            height: 300px;
-            top: -100px;
-            right: -100px;
-            animation-delay: 0s;
-        }
-
-        .bg-orb:nth-child(2) {
-            width: 200px;
-            height: 200px;
-            bottom: -50px;
-            left: -50px;
-            animation-delay: -5s;
-        }
-
-        .bg-orb:nth-child(3) {
-            width: 150px;
-            height: 150px;
-            top: 30%;
-            left: 10%;
-            animation-delay: -10s;
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0) rotate(0deg); }
-            33% { transform: translateY(-20px) rotate(5deg); }
-            66% { transform: translateY(10px) rotate(-3deg); }
-        }
-
-        /* Card */
         .card {
-            background: rgba(255, 255, 255, 0.97);
-            border-radius: 16px;
+            background: #fff;
+            border-radius: 12px;
             padding: 48px 40px;
             max-width: 440px;
             width: 100%;
             text-align: center;
-            position: relative;
-            z-index: 1;
-            box-shadow:
-                0 4px 6px rgba(0, 0, 0, 0.05),
-                0 10px 20px rgba(0, 0, 0, 0.1),
-                0 30px 60px rgba(0, 0, 0, 0.15);
-            animation: cardIn 0.6s ease-out;
-        }
-
-        @keyframes cardIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px) scale(0.98);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0) scale(1);
-            }
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
         }
 
         .logo {
             margin-bottom: 24px;
-            animation: logoIn 0.6s ease-out 0.2s both;
-        }
-
-        @keyframes logoIn {
-            from { opacity: 0; transform: scale(0.9); }
-            to { opacity: 1; transform: scale(1); }
         }
 
         .logo img {
             height: 72px;
             width: auto;
-            transition: transform 0.3s ease;
-        }
-
-        .logo img:hover {
-            transform: scale(1.05);
         }
 
         h1 {
+            font-family: 'Source Serif 4', Georgia, serif;
             color: #1A3C6E;
             font-size: 1.625rem;
-            font-weight: 700;
+            font-weight: 600;
             margin-bottom: 8px;
-            animation: fadeUp 0.5s ease-out 0.3s both;
         }
 
         .tagline {
@@ -158,20 +57,13 @@
             font-size: 0.9375rem;
             line-height: 1.5;
             margin-bottom: 28px;
-            animation: fadeUp 0.5s ease-out 0.4s both;
-        }
-
-        @keyframes fadeUp {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
         }
 
         .form-group {
-            animation: fadeUp 0.5s ease-out 0.5s both;
+            margin-bottom: 16px;
         }
 
         .input-wrapper {
-            position: relative;
             margin-bottom: 12px;
         }
 
@@ -181,17 +73,16 @@
             font-family: inherit;
             font-size: 1rem;
             border: 2px solid #E9ECEF;
-            border-radius: 10px;
+            border-radius: 8px;
             background: #F8F9FA;
             color: #212529;
-            transition: all 0.25s ease;
+            transition: border-color 0.2s ease, background 0.2s ease;
         }
 
         .input-wrapper input:focus {
             outline: none;
             border-color: #1A3C6E;
             background: #fff;
-            box-shadow: 0 0 0 4px rgba(26, 60, 110, 0.1);
         }
 
         .input-wrapper input::placeholder {
@@ -201,41 +92,24 @@
         button {
             width: 100%;
             padding: 16px 24px;
-            background: linear-gradient(135deg, #D4A520 0%, #B8901A 100%);
-            color: #fff;
+            background: #D4A520;
+            color: #1A3C6E;
             font-family: inherit;
             font-size: 1rem;
             font-weight: 600;
             border: none;
-            border-radius: 10px;
+            border-radius: 8px;
             cursor: pointer;
-            transition: all 0.25s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        button::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-            transition: left 0.5s ease;
+            transition: background 0.2s ease;
         }
 
         button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(212, 165, 32, 0.35);
+            background: #E5B82A;
         }
 
-        button:hover::before {
-            left: 100%;
-        }
-
-        button:active {
-            transform: translateY(0);
+        button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
         }
 
         .hint {
@@ -246,7 +120,6 @@
             gap: 6px;
             color: #6C757D;
             font-size: 0.8125rem;
-            animation: fadeUp 0.5s ease-out 0.6s both;
         }
 
         .hint svg {
@@ -256,13 +129,8 @@
 
         .divider {
             height: 1px;
-            background: linear-gradient(90deg, transparent, #DEE2E6, transparent);
+            background: #E9ECEF;
             margin: 28px 0;
-            animation: fadeUp 0.5s ease-out 0.65s both;
-        }
-
-        .home-link {
-            animation: fadeUp 0.5s ease-out 0.7s both;
         }
 
         .home-link a {
@@ -273,20 +141,11 @@
             font-size: 0.875rem;
             font-weight: 500;
             text-decoration: none;
-            transition: all 0.25s ease;
+            transition: color 0.2s ease;
         }
 
         .home-link a:hover {
             color: #1A3C6E;
-            gap: 10px;
-        }
-
-        .home-link a svg {
-            transition: transform 0.25s ease;
-        }
-
-        .home-link a:hover svg {
-            transform: translateX(3px);
         }
 
         /* Success state */
@@ -297,7 +156,6 @@
 
         .success-message {
             display: none;
-            animation: fadeUp 0.4s ease-out;
         }
 
         .card.success .success-message {
@@ -307,18 +165,12 @@
         .success-icon {
             width: 64px;
             height: 64px;
-            background: linear-gradient(135deg, #D4A520 0%, #B8901A 100%);
+            background: #D4A520;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0 auto 16px;
-            animation: scaleIn 0.4s ease-out;
-        }
-
-        @keyframes scaleIn {
-            from { transform: scale(0); }
-            to { transform: scale(1); }
         }
 
         .success-icon svg {
@@ -328,6 +180,7 @@
         }
 
         .success-message h2 {
+            font-family: 'Source Serif 4', Georgia, serif;
             color: #1A3C6E;
             font-size: 1.25rem;
             margin-bottom: 8px;
@@ -354,20 +207,13 @@
     </style>
 </head>
 <body>
-    <!-- Background elements -->
-    <div class="bg-grid"></div>
-    <div class="bg-glow"></div>
-    <div class="bg-orb"></div>
-    <div class="bg-orb"></div>
-    <div class="bg-orb"></div>
-
     <div class="card" id="card">
         <div class="logo">
             <img src="logo.jpeg" alt="NMSGA">
         </div>
 
         <h1>Join NMSGA</h1>
-        <p class="tagline">The national network for medical school student body presidents.</p>
+        <p class="tagline">The professional association for medical school student body presidents.</p>
 
         <div class="form-group">
             <form action="https://formspree.io/f/mvzbqpjj" method="POST" id="signup-form">
@@ -410,7 +256,6 @@
     </div>
 
     <script>
-        // Handle form submission via AJAX (no page redirect)
         const form = document.getElementById('signup-form');
         const card = document.getElementById('card');
 
@@ -429,10 +274,8 @@
                     headers: { 'Accept': 'application/json' }
                 });
 
-                // Show success state
                 card.classList.add('success');
             } catch (error) {
-                // Still show success (Formspree may have CORS issues but email still sent)
                 card.classList.add('success');
             }
         });

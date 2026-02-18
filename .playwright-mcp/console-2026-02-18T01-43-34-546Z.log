@@ -1,0 +1,102 @@
+[    5625ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://member.ama-assn.org/favicon.ico:0
+[    7867ms] [ERROR] Refused to apply style from 'https://www.ama-assn.org/themes/custom/ama_one/css/style.min.css?t9p3oa' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ https://www.ama-assn.org/:0
+[    8276ms] [ERROR] Refused to apply style from 'https://www.ama-assn.org/themes/custom/ama_one/css/style.min.css?t9p3oa' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ https://www.ama-assn.org/:0
+[    8355ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=1.13.2:0
+[    8355ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=1.13.2:0
+[    8355ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=1.13.2:0
+[    8355ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=1.13.2:0
+[    8355ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/tabs-min.js?v=1.13.2:0
+[    8355ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/tooltip-min.js?v=1.13.2:0
+[    8355ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/aimtell/js/aimtell.js?v=1.x:0
+[    8373ms] TypeError: i is not a constructor
+    at t.widget (https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2:9:813)
+    at https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=1.13.2:9:248
+    at https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=1.13.2:9:202
+    at https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=1.13.2:9:212
+[    8373ms] TypeError: i is not a constructor
+    at t.widget (https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2:9:813)
+    at https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=1.13.2:9:202
+    at https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=1.13.2:9:156
+    at https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=1.13.2:9:166
+[    8373ms] TypeError: i is not a constructor
+    at t.widget (https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2:9:813)
+    at https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/slider-min.js?v=1.13.2:9:180
+    at https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/slider-min.js?v=1.13.2:9:134
+    at https://www.ama-assn.org/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/slider-min.js?v=1.13.2:9:144
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/article-stub-list.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/banner.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/external-links.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/footer-email-subscription.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/footer-email-validation.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/form-tracking.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/homepage-cta.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/product-navigation.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/quick-links.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/search-suggestions-analytics.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/sign-in-dropdown.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_analytics/js/subscribe-promo.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/js/styleguide-custom.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/js/vendor/fitvids.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/js/vendor/jquery.sticky.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/js/vendor/jquery.basictable.min.js?t9p3oa:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/js/vendor/jquery.mask.min.js?t9p3oa:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/js/vendor/jquery.smartmenus.min.js?t9p3oa:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/js/vendor/jquery.validate.js?t9p3oa:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/js/main-navigation.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/js/search-suggestions.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/js/sign-in-dropdown.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_one_social_share/js/addtoany_customizations.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/core/assets/vendor/js-cookie/js.cookie.min.js?v=3.0.5:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_saml_auth/js/ama-sso.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/custom/ama_utility/js/speed-up-rating.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/clientside_validation/clientside_validation_jquery/js/cv.jquery.ife.js?t9p3oa:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/clientside_validation/clientside_validation_jquery/js/cv.jquery.validate.js?t9p3oa:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/clientside_validation/clientside_validation_jquery/js/cv.pattern.method.js?t9p3oa:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/components/source/01-atoms/buttons/button-main.js?t9p3oa:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/components/source/03-organisms/footers/footer-main.js?t9p3oa:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/datalayer/js/datalayer.js?v=1.x:0
+[    8359ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/extlink/js/extlink.js?v=10.5.6:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/core/misc/progress.js?v=10.5.6:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/core/misc/jquery.form.js?v=4.3.0:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/core/misc/debounce.js?v=10.5.6:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/core/misc/announce.js?v=10.5.6:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/core/misc/message.js?v=10.5.6:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/core/misc/ajax.js?v=10.5.6:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/contrib/stable/js/ajax.js?v=10.5.6:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/google_tag/js/gtag.ajax.js?t9p3oa:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/rate/js/unvote-helper.js?v=1:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/rate/js/w-thumbsup.js?v=1:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/webform/js/webform.scroll.js?v=10.5.6:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/webform/js/webform.ajax.js?v=10.5.6:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/webform/js/webform.element.details.save.js?v=10.5.6:0
+[    8360ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/webform/js/webform.element.details.toggle.js?v=10.5.6:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/webform/js/webform.element.message.js?v=10.5.6:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/core/misc/form.js?v=10.5.6:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/webform/js/webform.behaviors.js?v=10.5.6:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/core/misc/states.js?v=10.5.6:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/webform/js/webform.states.js?v=10.5.6:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/modules/contrib/webform/js/webform.form.js?v=10.5.6:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/icons/svg/icon-search-purple.svg:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/icons/svg/icon-chevron.svg:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/2024-12/home-hero_0.jpg:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/icons/svg/cta-arrow-right.svg:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/images/dot_pattern_web.svg:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/images/arrow-right-purple-alt.png:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/themes/custom/ama_one/components/source/02-molecules/promos/error.svg:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/social-icons/linkedin-footer-icon.svg:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/social-icons/x-footer-icon.svg:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/social-icons/facebook-footer-icon.svg:0
+[    8361ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/social-icons/instagram-footer-icon.svg:0
+[    8362ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/social-icons/youtubee-footer-icon.svg:0
+[    8362ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/social-icons/bluesky-footer-icon.svg:0
+[    8362ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/styles/related_article_stub_image_1200x800_3_2/public/2026-02/01-30-26-BETTERCOMMS-index-1170x780.jpg?itok=udOruAYM:0
+[    8362ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/styles/related_article_stub_image_1200x800_3_2/public/2026-02/2026-02-06-SAS26COLLAB-index-1170x780.jpg?itok=Ls94WeZi:0
+[    8362ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/styles/related_article_stub_image_1200x800_3_2/public/2026-02/2026-01-17-MEASUREAH_Index-1170x780.jpg?itok=VyA0Ct0V:0
+[    8362ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/styles/related_article_stub_image_1200x800_3_2/public/2026-02/2026-02-13-STRESSRELIEF_Index-1170x780.jpg?itok=Xd9O2Vbm:0
+[    8362ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/styles/related_article_stub_image_1200x800_3_2/public/2026-02/2026-01-02-RECRUITSPECIAL_Index-1170x780.jpg?itok=Yd2v-ijI:0
+[    8362ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/styles/related_article_stub_image_1200x800_3_2/public/2026-02/2026-02-10-MSWFAMILYPLAN26_Index-1170x780.jpg?itok=YV5OjGBu:0
+[    8362ms] [ERROR] Failed to load resource: net::ERR_SSL_BAD_RECORD_MAC_ALERT @ https://www.ama-assn.org/sites/ama-assn.org/files/styles/related_article_stub_image_1200x800_3_2/public/2026-02/2026-02-11-WEB_REFRESH_Index-1170x780.jpg?itok=4C5-Z7a3:0
+[    8830ms] [ERROR] Access to fetch at 'https://tags.srv.stackadapt.com/sa.jpeg' from origin 'https://www.ama-assn.org' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://member.ama-assn.org' that is not equal to the supplied origin. Have the server send the header with a valid value. @ https://www.ama-assn.org/:0
+[    8830ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://tags.srv.stackadapt.com/sa.jpeg:0
+[    9612ms] [ERROR] Refused to apply style from 'https://www.ama-assn.org/themes/custom/ama_one/css/style.min.css?t9p3oa' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ about:blank:0

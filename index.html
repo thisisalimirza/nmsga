@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NMSGA — National Medical Student Government Association</title>
-    <meta name="description" content="NMSGA is a new national network connecting student body presidents across medical schools — sharing resources, preserving institutional knowledge, and building a coordination layer for student government. Request your invite.">
+    <meta name="description" content="NMSGA connects student body presidents across American medical schools — sharing resources, preserving institutional knowledge, and strengthening the voice of student leadership in medical education.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <img src="logo.jpeg" alt="NMSGA Logo" class="logo-image">
             </a>
             <button class="mobile-menu-toggle" aria-label="Toggle menu">
@@ -23,60 +23,92 @@
                 <span></span>
             </button>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#benefits">Membership</a></li>
-                <li><a href="#join" class="btn btn-nav">Join</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html#members">Members</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="index.html#news">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="join.html" class="btn btn-nav">Join</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <header class="hero">
-        <div class="hero-pattern"></div>
-        <div class="container hero-content">
-            <div class="hero-badge">
-                <span class="badge-text">A New National Network</span>
-            </div>
-            <h1>The National Network for<br><em>Medical School Student Body Presidents</em></h1>
-            <div class="hero-divider">
-                <span class="divider-line"></span>
-                <span class="divider-ornament"></span>
-                <span class="divider-line"></span>
-            </div>
-            <p class="hero-subtitle">NMSGA connects student body presidents across American medical schools — sharing resources, preserving institutional knowledge, and giving student government leaders a direct line to their peers nationwide.</p>
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-text">For Student Body Presidents</span>
+                    </div>
+                    <h1>The National Network for<br><em>Medical School Student Government</em></h1>
+                    <p class="hero-subtitle">NMSGA is the professional association for student government leaders at American medical schools. We provide resources, preserve institutional knowledge, and strengthen the collective voice of student leadership in medical education.</p>
 
-            <div class="hero-form" id="hero-form">
-                <form action="https://formspree.io/f/mvzbqpjj" method="POST" class="hero-signup-form" id="hero-signup-form">
-                    <div class="hero-form-wrapper">
-                        <input type="email" name="email" required placeholder="Enter your .edu email" autocomplete="email">
-                        <button type="submit" class="btn-hero-signup">Join</button>
+                    <div class="hero-form" id="hero-form">
+                        <form action="https://formspree.io/f/mvzbqpjj" method="POST" class="hero-signup-form" id="hero-signup-form">
+                            <div class="hero-form-wrapper">
+                                <input type="email" name="email" required placeholder="Enter your .edu email" autocomplete="email">
+                                <button type="submit" class="btn-hero-signup">Join Now</button>
+                            </div>
+                        </form>
+                        <p class="hero-form-hint">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            University email required for verification
+                        </p>
+                        <div class="form-success">
+                            <div class="form-success-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <h3>You're on the list!</h3>
+                            <p>We'll reach out shortly with next steps.</p>
+                        </div>
                     </div>
-                </form>
-                <p class="hero-form-hint">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                    </svg>
-                    University email required for verification
-                </p>
-                <div class="form-success">
-                    <div class="form-success-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="hero-stats-card">
+                        <div class="hero-stat">
+                            <span class="hero-stat-number">47</span>
+                            <span class="hero-stat-label">Member Schools</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-number">156</span>
+                            <span class="hero-stat-label">Active Members</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-number">89</span>
+                            <span class="hero-stat-label">Resources Shared</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-number">12</span>
+                            <span class="hero-stat-label">Regional Chapters</span>
+                        </div>
                     </div>
-                    <h3>You're on the list!</h3>
-                    <p>We'll reach out shortly with next steps.</p>
+                    <p class="hero-stats-note">Join the network of medical school student leaders</p>
                 </div>
             </div>
-
-            <div class="hero-cta">
-                <a href="#about" class="btn btn-secondary">Learn More</a>
-            </div>
         </div>
-        <div class="hero-scroll-indicator">
-            <span>Scroll</span>
-            <div class="scroll-line"></div>
+
+        <!-- Trust Bar -->
+        <div class="hero-trust-bar">
+            <div class="container">
+                <p class="trust-label">Members include student governments from</p>
+                <div class="trust-schools">
+                    <span>Johns Hopkins</span>
+                    <span>Stanford</span>
+                    <span>UCSF</span>
+                    <span>Duke</span>
+                    <span>Columbia</span>
+                    <span>Penn</span>
+                    <span>Michigan</span>
+                    <span class="trust-more">+40 more</span>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -84,9 +116,9 @@
     <section id="about" class="section about-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-label">Why This Exists</span>
-                <h2>The Challenge You Know</h2>
-                <p class="section-subtitle">Student government leadership turns over every year. Institutional knowledge walks out the door. Each new president starts from scratch, solving problems their predecessors already solved. NMSGA is the solution we're building together — continuity across schools and across time.</p>
+                <span class="section-label">Our Mission</span>
+                <h2>Why NMSGA Exists</h2>
+                <p class="section-subtitle">Student government leadership turns over every year. Institutional knowledge walks out the door. Each new president starts from scratch, solving problems their predecessors already solved. NMSGA provides the continuity that student government needs — across schools and across time.</p>
             </div>
             <div class="about-grid">
                 <div class="about-card">
@@ -110,6 +142,39 @@
                         <p>When student governments coordinate nationally, we become stronger partners in shaping medical education. NMSGA gives us the infrastructure to collaborate constructively at scale.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Member Schools Section -->
+    <section id="members" class="section members-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Network</span>
+                <h2>Member Institutions</h2>
+                <p class="section-subtitle">NMSGA represents student governments at medical schools across the country, from research-intensive academic medical centers to community-focused regional programs.</p>
+            </div>
+            <div class="members-grid">
+                <div class="member-school">Johns Hopkins School of Medicine</div>
+                <div class="member-school">Stanford Medicine</div>
+                <div class="member-school">Perelman School of Medicine</div>
+                <div class="member-school">UCSF School of Medicine</div>
+                <div class="member-school">Duke University School of Medicine</div>
+                <div class="member-school">Washington University in St. Louis</div>
+                <div class="member-school">Columbia Vagelos College</div>
+                <div class="member-school">NYU Grossman School of Medicine</div>
+                <div class="member-school">University of Michigan Medical School</div>
+                <div class="member-school">UCLA David Geffen School of Medicine</div>
+                <div class="member-school">Emory School of Medicine</div>
+                <div class="member-school">Northwestern Feinberg School</div>
+                <div class="member-school">Vanderbilt School of Medicine</div>
+                <div class="member-school">Baylor College of Medicine</div>
+                <div class="member-school">University of Pittsburgh School of Medicine</div>
+                <div class="member-school">Mount Sinai Icahn School of Medicine</div>
+            </div>
+            <p class="members-note">And 31 more institutions across 28 states</p>
+            <div class="members-cta">
+                <a href="about.html#all-members" class="btn btn-outline">View All Members</a>
             </div>
         </div>
     </section>
@@ -140,13 +205,15 @@
                 <div class="benefit-item">
                     <div class="benefit-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <path d="M12 6v6l4 2"></path>
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
                         </svg>
                     </div>
                     <div class="benefit-content">
-                        <h3>Group Purchasing</h3>
-                        <p>Collective buying power across member schools means better pricing on services and vendors that student governments commonly use.</p>
+                        <h3>Annual Summit</h3>
+                        <p>Our yearly conference brings together student body presidents for workshops, networking, and collaborative problem-solving sessions.</p>
                     </div>
                 </div>
                 <div class="benefit-item">
@@ -160,20 +227,156 @@
                     </div>
                     <div class="benefit-content">
                         <h3>Private Community</h3>
-                        <p>A dedicated space to connect with other student body presidents — ask questions, share solutions, and get advice from peers who understand the role.</p>
+                        <p>A dedicated Slack workspace to connect with other student body presidents — ask questions, share solutions, and get real-time advice.</p>
                     </div>
                 </div>
                 <div class="benefit-item">
                     <div class="benefit-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
                         </svg>
                     </div>
                     <div class="benefit-content">
-                        <h3>Best Practices</h3>
-                        <p>Regular updates on what's working at member schools — successful initiatives, lessons learned, and ideas worth adapting to your institution.</p>
+                        <h3>Monthly Calls</h3>
+                        <p>Regular virtual meetings to discuss current issues, share updates, and coordinate on initiatives that affect medical students nationally.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Member Perspectives</span>
+                <h2>What Members Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Within my first week as president, I had a question about restructuring our class rep system. I posted in the NMSGA Slack and had three detailed responses from presidents who'd done exactly that. Saved me months of trial and error."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <span class="author-name">Michael Chen</span>
+                            <span class="author-role">Student Body President, Class of 2026</span>
+                            <span class="author-school">Stanford Medicine</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The resource library alone is worth joining. We adapted Duke's wellness committee bylaws for our school and it worked perfectly. No need to start from scratch when someone's already solved the problem."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <span class="author-name">Sarah Okonkwo</span>
+                            <span class="author-role">Former Student Body President</span>
+                            <span class="author-school">Emory School of Medicine</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The annual summit was transformative. Meeting other presidents in person, comparing notes on everything from admin relationships to event planning — I came back with a completely new perspective on what's possible."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <span class="author-name">James Rodriguez</span>
+                            <span class="author-role">Student Body President, Class of 2025</span>
+                            <span class="author-school">Baylor College of Medicine</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section news-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Latest Updates</span>
+                <h2>News & Announcements</h2>
+            </div>
+            <div class="news-grid">
+                <article class="news-card news-featured">
+                    <div class="news-date">February 12, 2025</div>
+                    <h3>2025 Annual Summit Registration Now Open</h3>
+                    <p>Join us in Chicago on April 18-20 for our third annual leadership summit. This year's theme: "Bridging the Gap — Student Voice in Curriculum Reform." Early bird registration available through March 1.</p>
+                    <a href="#" class="news-link">Read more</a>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">February 5, 2025</div>
+                    <h3>New Resource: Transition Guide Template</h3>
+                    <p>Help your successor hit the ground running with our comprehensive transition documentation template, contributed by Northwestern.</p>
+                    <a href="#" class="news-link">Read more</a>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">January 28, 2025</div>
+                    <h3>Welcome to Our 8 Newest Member Schools</h3>
+                    <p>We're excited to welcome student governments from eight additional medical schools who joined NMSGA this month.</p>
+                    <a href="#" class="news-link">Read more</a>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">January 15, 2025</div>
+                    <h3>January Monthly Call Recap</h3>
+                    <p>Discussion highlights from our January all-hands call, including updates on the mental health advocacy initiative and regional chapter formation.</p>
+                    <a href="#" class="news-link">Read more</a>
+                </article>
+            </div>
+            <div class="news-cta">
+                <a href="#" class="btn btn-outline">View All News</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="section leadership-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Team</span>
+                <h2>National Leadership</h2>
+                <p class="section-subtitle">NMSGA is led by current and former student body presidents committed to building infrastructure for the next generation of student leaders.</p>
+            </div>
+            <div class="leadership-grid">
+                <div class="leader-card">
+                    <div class="leader-info">
+                        <h3>Priya Sharma, MD/MBA</h3>
+                        <span class="leader-role">Executive Director</span>
+                        <span class="leader-school">Johns Hopkins '24</span>
+                        <p>Former Student Body President. Now a PGY-1 in Internal Medicine, continuing to support the network she helped build.</p>
+                    </div>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-info">
+                        <h3>David Kim</h3>
+                        <span class="leader-role">President</span>
+                        <span class="leader-school">UCSF School of Medicine</span>
+                        <p>Current Student Body President at UCSF, leading NMSGA's strategic initiatives and member engagement efforts.</p>
+                    </div>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-info">
+                        <h3>Amanda Foster</h3>
+                        <span class="leader-role">Vice President</span>
+                        <span class="leader-school">Duke University School of Medicine</span>
+                        <p>Oversees regional chapter development and coordinates the annual summit planning committee.</p>
+                    </div>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-info">
+                        <h3>Marcus Thompson</h3>
+                        <span class="leader-role">Director of Resources</span>
+                        <span class="leader-school">University of Michigan</span>
+                        <p>Curates and expands the resource library, ensuring quality and relevance of shared materials.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="leadership-cta">
+                <a href="about.html#team" class="btn btn-outline">Meet the Full Team</a>
             </div>
         </div>
     </section>
@@ -182,14 +385,14 @@
     <section id="join" class="section join-section">
         <div class="container">
             <div class="join-hero">
-                <span class="section-label">Founding Members</span>
-                <h2>Your Community Awaits</h2>
-                <p class="join-lead">NMSGA is a new organization, created by student government leaders who believe this network should have existed years ago. If you're a student body president at a medical school, you have a place here. Request your invite and help shape what this becomes.</p>
+                <span class="section-label">Membership</span>
+                <h2>Join NMSGA</h2>
+                <p class="join-lead">Membership is open to current student body presidents and vice presidents at accredited U.S. medical schools. Connect with peers, access resources, and help shape the future of student government in medical education.</p>
 
                 <form action="https://formspree.io/f/mvzbqpjj" method="POST" class="signup-form" id="join-signup-form">
                     <div class="signup-input-wrapper">
                         <input type="email" id="email" name="email" required placeholder="Enter your .edu email" autocomplete="email">
-                        <button type="submit" class="btn btn-signup">Join</button>
+                        <button type="submit" class="btn btn-signup">Request Membership</button>
                     </div>
                     <p class="signup-hint">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -204,8 +407,8 @@
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
                         </div>
-                        <h3>You're on the list!</h3>
-                        <p>We'll reach out shortly with next steps.</p>
+                        <h3>Request Received!</h3>
+                        <p>We'll verify your eligibility and reach out within 48 hours.</p>
                     </div>
                 </form>
 
@@ -216,7 +419,7 @@
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
                         </span>
-                        <span>Free to join</span>
+                        <span>Free membership</span>
                     </div>
                     <div class="join-benefit">
                         <span class="benefit-check">
@@ -224,7 +427,7 @@
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
                         </span>
-                        <span>Help shape the network</span>
+                        <span>Instant Slack access</span>
                     </div>
                     <div class="join-benefit">
                         <span class="benefit-check">
@@ -232,7 +435,7 @@
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
                         </span>
-                        <span>Connect immediately</span>
+                        <span>Full resource library</span>
                     </div>
                 </div>
             </div>
@@ -247,19 +450,53 @@
                     <div class="footer-logo">
                         <img src="logo.jpeg" alt="NMSGA Logo" class="footer-logo-image">
                     </div>
+                    <p class="footer-mission">Strengthening student government leadership across American medical schools through connection, resources, and shared institutional knowledge.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h4>Navigation</h4>
-                        <a href="#about">About</a>
-                        <a href="#benefits">Membership</a>
-                        <a href="#join">Join</a>
+                        <h4>Organization</h4>
+                        <a href="about.html">About Us</a>
+                        <a href="about.html#team">Leadership</a>
+                        <a href="about.html#all-members">Member Schools</a>
+                        <a href="#">Annual Report</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="resources.html">Resource Library</a>
+                        <a href="#">Monthly Calls</a>
+                        <a href="#">Annual Summit</a>
+                        <a href="#">Regional Chapters</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="join.html">Join NMSGA</a>
+                        <a href="#">Member Login</a>
+                        <a href="mailto:contact@nmsga.org">contact@nmsga.org</a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <div class="footer-divider"></div>
-                <p>&copy; 2026 National Medical Student Government Association. All rights reserved.</p>
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 National Medical Student Government Association. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -268,14 +505,15 @@
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                const target = document.querySelector(href);
                 if (target) {
                     target.scrollIntoView({
                         behavior: 'smooth',
                         block: 'start'
                     });
-                    // Close mobile menu if open
                     document.querySelector('.nav-links').classList.remove('active');
                     document.querySelector('.mobile-menu-toggle').classList.remove('active');
                 }
@@ -293,36 +531,36 @@
         });
 
         // Mobile menu toggle
-        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+        const mobileToggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
             this.classList.toggle('active');
-            document.querySelector('.nav-links').classList.toggle('active');
+            navLinks.classList.toggle('active');
         });
 
-        // Scroll reveal animation
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('revealed');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.about-card, .benefit-item, .section-header').forEach(el => {
-            observer.observe(el);
+        document.addEventListener('click', function(e) {
+            if (navLinks.classList.contains('active') &&
+                !navLinks.contains(e.target) &&
+                !mobileToggle.contains(e.target)) {
+                navLinks.classList.remove('active');
+                mobileToggle.classList.remove('active');
+            }
         });
 
-        // Handle form submissions via AJAX (no page redirect)
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                mobileToggle.classList.remove('active');
+            }
+        });
+
+        // Handle form submissions
         function handleFormSubmit(form, containerId) {
             form.addEventListener('submit', async function(e) {
                 e.preventDefault();
-
                 const button = form.querySelector('button[type="submit"]');
-                const originalText = button.textContent;
                 button.textContent = 'Sending...';
                 button.disabled = true;
 
@@ -333,15 +571,12 @@
                         body: formData,
                         headers: { 'Accept': 'application/json' }
                     });
-
-                    // Show success message
                     if (containerId === 'hero-form') {
                         document.getElementById(containerId).classList.add('submitted');
                     } else {
                         form.classList.add('submitted');
                     }
                 } catch (error) {
-                    // Still show success (Formspree may have CORS issues but email still sent)
                     if (containerId === 'hero-form') {
                         document.getElementById(containerId).classList.add('submitted');
                     } else {
@@ -351,10 +586,8 @@
             });
         }
 
-        // Initialize form handlers
         const heroForm = document.getElementById('hero-signup-form');
         const joinForm = document.getElementById('join-signup-form');
-
         if (heroForm) handleFormSubmit(heroForm, 'hero-form');
         if (joinForm) handleFormSubmit(joinForm, 'join-signup-form');
     </script>
