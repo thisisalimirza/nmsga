@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join NMSGA</title>
+    <meta name="description" content="Request your invite to NMSGA — the national network for medical school student body presidents.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #1A3C6E;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 32px;
+        }
+
+        .logo img {
+            height: 80px;
+            width: auto;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .tagline {
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 32px;
+        }
+
+        .form-wrapper {
+            background: #fff;
+            border-radius: 8px;
+            padding: 6px;
+            margin-bottom: 16px;
+        }
+
+        .form-wrapper form {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-wrapper input {
+            width: 100%;
+            padding: 14px 16px;
+            font-family: inherit;
+            font-size: 1rem;
+            border: none;
+            background: transparent;
+            color: #212529;
+            text-align: center;
+        }
+
+        .form-wrapper input:focus {
+            outline: none;
+        }
+
+        .form-wrapper input::placeholder {
+            color: #ADB5BD;
+        }
+
+        .form-wrapper button {
+            width: 100%;
+            padding: 14px 24px;
+            background: #D4A520;
+            color: #212529;
+            font-family: inherit;
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 200ms ease;
+        }
+
+        .form-wrapper button:hover {
+            background: #E8B93A;
+        }
+
+        .hint {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.8125rem;
+        }
+
+        .home-link {
+            margin-top: 32px;
+        }
+
+        .home-link a {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.875rem;
+            text-decoration: none;
+            transition: color 200ms ease;
+        }
+
+        .home-link a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.jpeg" alt="NMSGA">
+        </div>
+
+        <h1>Join NMSGA</h1>
+        <p class="tagline">The national network for medical school student body presidents.</p>
+
+        <div class="form-wrapper">
+            <form action="https://formspree.io/f/mvzbqpjj" method="POST">
+                <input type="email" name="email" required placeholder="Enter your email address" autocomplete="email">
+                <button type="submit">Request Invite</button>
+            </form>
+        </div>
+
+        <p class="hint">Use your university email (.edu) for verification</p>
+
+        <div class="home-link">
+            <a href="index.html">Learn more about NMSGA →</a>
+        </div>
+    </div>
+</body>
+</html>
